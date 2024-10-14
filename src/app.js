@@ -17,6 +17,6 @@ if(SERVICE==='user'){
 
 app.get('/',(req,res)=>{res.send( 'konichiwa')})
 
-app.listen(8080, () => {
+app.listen(80, () => {
   console.log("server started");
 });
